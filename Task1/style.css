@@ -22,9 +22,10 @@ header{
 }
 
 .main-visual{
-  width: 960px;
+  width: 100%;
   margin: 50px auto;
   display: flex;
+  justify-content: center;
 }
 
 .image1{
@@ -42,6 +43,7 @@ header{
 }
 
 .image3{
+
   height: 150px;
   background-size: cover;
   background-position: bottom;
@@ -67,9 +69,6 @@ footer{
 }
 
 @media screen and (max-width:768px){
-  .header{
-    width: 100%;
-  }
 
   .main-visual{
     display: block;
@@ -86,8 +85,6 @@ footer{
   margin-right: auto;
 }
 
-footer{
-  width: 100%;
-}
+
 
 }
